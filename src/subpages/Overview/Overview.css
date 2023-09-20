@@ -1,0 +1,14 @@
+.slogan {
+    margin-left: 55%;
+}
+
+.overview-img {
+    width: 70%;
+}
+
+.overview-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}

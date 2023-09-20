@@ -21,6 +21,7 @@
   --background-color: #150e28;
   --primary: #d434fe;
   --secondary: #903aff;
+  --active-grad: linear-gradient(90deg, #903aff 3.08%, #ff26b9 93.85%);
 }
 
 html,
@@ -32,33 +33,54 @@ html,
   font: inherit;
   vertical-align: baseline;
   box-sizing: border-box;
+  line-height: normal;
 }
 
 body {
-  padding: 2rem 5rem;
-  background-image: url('../assets/desktop/desktop-bg.png');
-  width: 100%;
-  height: 100%;
+  background-image: url("../assets/desktop/desktop-bg.png");
+  max-width: 100vw;
   background-color: var(--background-color);
   color: white;
 }
 
 .link {
   font-family: Montserrat;
-  font-size: 16px;
   font-style: normal;
   font-weight: 400;
-  line-height: normal;
 }
 
 .logo p {
   font-family: ClashDisplay;
-  font-size: 36px;
   font-style: normal;
   font-weight: 700;
-  line-height: normal;
 }
 
 .logo span {
   color: var(--primary);
+}
+
+.btn {
+  background: var(--gradient);
+}
+
+.link.active {
+  background: var(--active-grad);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+.slogan p {
+  font-family: Montserrat;
+  font-style: italic;
+  font-weight: 700;
+}
+
+.overview-content-body p {
+font-family: ClashDisplay;
+font-weight: 700;
+}
+
+.overview-content-body p span {
+  color: var(--secondary);
 }

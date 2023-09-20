@@ -3,6 +3,7 @@ nav {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.18);;
 }
 
 .links {
@@ -15,6 +16,6 @@ nav {
 .links ul {
   display: flex;
   flex-direction: row;
-  gap: 1.5rem;
+  gap: 3.5rem;
   align-items: center;
 }
