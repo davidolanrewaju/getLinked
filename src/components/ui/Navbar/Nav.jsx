@@ -3,7 +3,7 @@ import Button from "../Buttons/Button";
 import "../Navbar/Nav.css";
 const Nav = () => {
   return (
-    <nav className="py-7 px-32">
+    <nav className="py-7 px-28">
       <div className="logo">
         <p className="text-3xl">
           get<span>linked</span>

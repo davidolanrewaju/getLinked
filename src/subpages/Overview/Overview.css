@@ -1,14 +1,16 @@
+.overview-container {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.18);
+}
 .slogan {
-    margin-left: 55%;
+    margin-left: 60%;
 }
 
 .overview-img {
-    width: 70%;
+    width: 50%;
 }
 
 .overview-content {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
     align-items: center;
 }
